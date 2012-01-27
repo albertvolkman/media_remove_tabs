@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements hook_media_browser_plugins_alter()
+ */
+function media_lockdown_media_browser_plugins_alter(&$plugins) {
+  unset($plugins['library']);
+  unset($plugins['upload']);
+}

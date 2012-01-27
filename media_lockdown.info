@@ -1,0 +1,4 @@
+name = Remove Library and Upload tabs
+description = Remove Library and Upload tabs
+core = 7.x
+files[] = media_lockdown.module
